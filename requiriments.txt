@@ -1,0 +1,6 @@
+opencv-python==3.4.0.12
+pandas==0.22.0
+scikit-learn==0.22.1
+torch==1.1.0
+torchsummary==1.5.1
+torchvision==0.2.2
