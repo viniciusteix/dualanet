@@ -4,7 +4,7 @@ import torch
 from torch.autograd import Variable
 
 from utils import AverageMeter, print_scores, attention_gen_patchs
-from eval_metrics import compute_roc_auc, compute_roc_auc_main
+from eval_metrics import compute_roc_auc
 
 import math
 import numpy as np
