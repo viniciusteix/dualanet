@@ -151,7 +151,7 @@ def main():
     model_dense = Classifier(cfg)
     print("Model size: {:.5f}M".format(sum(p.numel() for p in model_dense.parameters())/1000000.0))
     
-        with open(args.infos_resnet) as f:
+    with open(args.infos_resnet) as f:
         cfg = edict(json.load(f))
     
     print('Initializing resnet branch')
